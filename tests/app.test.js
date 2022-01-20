@@ -35,7 +35,7 @@ describe("slide two", () => {
     expect(app.sqrDigits(251)).toBe(4251);
   });
 
-  test('Array of names only contains "Stepahnie"', () => {
+  test('Array of names only contains "Stephanie"', () => {
     success = ["Stephanie"];
     expect(
       app.onlyItemsOfnLength(["cath", "jess", "gorb", "Stephanie"])
